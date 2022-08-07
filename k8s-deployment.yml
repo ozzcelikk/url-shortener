@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: url-shortener
-          image: kozcelik/url-shortener-go:1.1.0
+          image: kozcelik/url-shortener-go:1.0.0
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
