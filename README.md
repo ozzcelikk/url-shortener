@@ -19,7 +19,10 @@ returns app is alive.
 generate random short-url and match with given long url. Generated value is saved in store on the memory and return short-url.
 
 # -GET "/"
-returns exist long url value by given short-url and increase visit count
+returns exist long url value by given short-url and increase visit count.
+
+# -GET "/list"
+returns all saved data with visit counts.
 ```
 
 ## Contributing
